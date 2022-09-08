@@ -6,7 +6,7 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-            int StartingValue = 2137;
+            int StartingValue = 2136;
             PartOne i = new PartOne();
             int result = i.Calcumulator(StartingValue);
 

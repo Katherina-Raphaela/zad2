@@ -17,9 +17,9 @@ namespace ConsoleApp
             }
             else
             {
-                while (x > y * y)
+                while (x >= y * 2)
                 {
-                    y = y * y;
+                    y = y * 2;
                 }
             }
             return y;
