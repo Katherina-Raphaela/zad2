@@ -6,8 +6,11 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-            PartOne k1 = new Class();
-            k1.Calcumulator
+            int StartingValue = 2137;
+            PartOne i = new PartOne();
+            int result = i.Calcumulator(StartingValue);
+
+            Console.WriteLine(StartingValue + " = " + result);
         }
     }
 }
