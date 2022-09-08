@@ -7,7 +7,7 @@ namespace ConsoleApp
         static void Main(string[] args)
         {
             PartOne k1 = new Class();
-            k1.power
+            k1.Calcumulator
         }
     }
 }

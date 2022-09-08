@@ -26,8 +26,16 @@ namespace ConsoleApp
         private int DoubleTrouble(int x)
         {
             int y = 2;
-            
-
+            if (x<y)
+            {
+                return 1;
+            } else
+            {
+                while (x>y*y)
+                {
+                    y = y * y;
+                }
+            }
             return y;
         }
     }
