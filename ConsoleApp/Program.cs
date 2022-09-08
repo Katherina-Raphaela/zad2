@@ -6,7 +6,8 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            PartOne k1 = new Class();
+            k1.power
         }
     }
 }
